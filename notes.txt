@@ -1,0 +1,3 @@
+Redux
+
+Action: object that gets sent to the store
