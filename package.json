@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
-  "homepage": "https://jd-reactjs-expensify-app.herokuapp.com/",
   "scripts": {
     "server": "live-server public/",
     "build:dev": "webpack",
