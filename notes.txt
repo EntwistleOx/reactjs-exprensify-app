@@ -4,3 +4,5 @@ Action: object that gets sent to the store
 
 Dispatch: send changes to the state in store
 Subscribe: do someting when the store change
+
+install only prod dependencies: npm install --only=prod
