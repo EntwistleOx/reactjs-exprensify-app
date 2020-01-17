@@ -20,7 +20,6 @@ module.exports = (env) => {
                 test: /\.s?css$/,
                 use: CSSExtract.extract({
                     use: [
-                        // 'style-loader', 
                         {
                             loader: 'css-loader',
                             options: {
@@ -33,7 +32,6 @@ module.exports = (env) => {
                                 sourceMap: true
                             }
                         }
-                        
                     ]
                 })
             }]
