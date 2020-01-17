@@ -20,29 +20,29 @@ ShallowWrapper {
       "children": Array [
         <h1>
           Expensify
-</h1>,
+        </h1>,
         <NavLink
           activeClassName="is-active"
           ariaCurrent="true"
           exact={true}
           to="/"
->
+        >
           Dashboard 
-</NavLink>,
+        </NavLink>,
         <NavLink
           activeClassName="is-active"
           ariaCurrent="true"
           to="/create"
->
+        >
           Create Expense 
-</NavLink>,
+        </NavLink>,
         <NavLink
           activeClassName="is-active"
           ariaCurrent="true"
           to="/help"
->
+        >
           Expense Help 
-</NavLink>,
+        </NavLink>,
       ],
     },
     "ref": null,
@@ -113,29 +113,29 @@ ShallowWrapper {
         "children": Array [
           <h1>
             Expensify
-</h1>,
+          </h1>,
           <NavLink
             activeClassName="is-active"
             ariaCurrent="true"
             exact={true}
             to="/"
->
+          >
             Dashboard 
-</NavLink>,
+          </NavLink>,
           <NavLink
             activeClassName="is-active"
             ariaCurrent="true"
             to="/create"
->
+          >
             Create Expense 
-</NavLink>,
+          </NavLink>,
           <NavLink
             activeClassName="is-active"
             ariaCurrent="true"
             to="/help"
->
+          >
             Expense Help 
-</NavLink>,
+          </NavLink>,
         ],
       },
       "ref": null,

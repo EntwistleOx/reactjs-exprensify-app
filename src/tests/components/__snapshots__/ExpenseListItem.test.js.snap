@@ -10,7 +10,7 @@ ShallowWrapper {
     description="Gum"
     id={1}
     note=""
-/>,
+  />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "getNode": [Function],
@@ -27,16 +27,16 @@ ShallowWrapper {
         <Link
           replace={false}
           to="edit/1"
->
+        >
           <h3>
-                    Gum
+            Gum
           </h3>
-</Link>,
+        </Link>,
         <p>
           195
            - 
           0
-</p>,
+        </p>,
       ],
     },
     "ref": null,
@@ -48,7 +48,7 @@ ShallowWrapper {
         "props": Object {
           "children": <h3>
             Gum
-</h3>,
+          </h3>,
           "replace": false,
           "to": "edit/1",
         },
@@ -98,16 +98,16 @@ ShallowWrapper {
           <Link
             replace={false}
             to="edit/1"
->
+          >
             <h3>
-                        Gum
+              Gum
             </h3>
-</Link>,
+          </Link>,
           <p>
             195
              - 
             0
-</p>,
+          </p>,
         ],
       },
       "ref": null,
@@ -119,7 +119,7 @@ ShallowWrapper {
           "props": Object {
             "children": <h3>
               Gum
-</h3>,
+            </h3>,
             "replace": false,
             "to": "edit/1",
           },

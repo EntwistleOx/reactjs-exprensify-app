@@ -1,10 +1,17 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`should render NotFoundPage correctly 1`] = `
+exports[`should render AddExpensePage correctly 1`] = `
 ShallowWrapper {
   "length": 1,
   Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <NotFoundPage />,
+  Symbol(enzyme.__unrendered__): <AddExpensePage
+    addExpense={[MockFunction]}
+    history={
+      Object {
+        "push": [MockFunction],
+      }
+    }
+  />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "getNode": [Function],
@@ -18,29 +25,36 @@ ShallowWrapper {
     "nodeType": "host",
     "props": Object {
       "children": Array [
-        "404! - ",
-        <Link
-          replace={false}
-          to="/"
-        >
-          Go home
-        </Link>,
+        <h1>
+          Add Expense
+        </h1>,
+        <ExpenseForm
+          onSubmit={[Function]}
+        />,
       ],
     },
     "ref": null,
     "rendered": Array [
-      "404! - ",
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Add Expense",
+        },
+        "ref": null,
+        "rendered": "Add Expense",
+        "type": "h1",
+      },
       Object {
         "instance": null,
         "key": undefined,
         "nodeType": "class",
         "props": Object {
-          "children": "Go home",
-          "replace": false,
-          "to": "/",
+          "onSubmit": [Function],
         },
         "ref": null,
-        "rendered": "Go home",
+        "rendered": null,
         "type": [Function],
       },
     ],
@@ -53,29 +67,36 @@ ShallowWrapper {
       "nodeType": "host",
       "props": Object {
         "children": Array [
-          "404! - ",
-          <Link
-            replace={false}
-            to="/"
-          >
-            Go home
-          </Link>,
+          <h1>
+            Add Expense
+          </h1>,
+          <ExpenseForm
+            onSubmit={[Function]}
+          />,
         ],
       },
       "ref": null,
       "rendered": Array [
-        "404! - ",
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Add Expense",
+          },
+          "ref": null,
+          "rendered": "Add Expense",
+          "type": "h1",
+        },
         Object {
           "instance": null,
           "key": undefined,
           "nodeType": "class",
           "props": Object {
-            "children": "Go home",
-            "replace": false,
-            "to": "/",
+            "onSubmit": [Function],
           },
           "ref": null,
-          "rendered": "Go home",
+          "rendered": null,
           "type": [Function],
         },
       ],

@@ -6,7 +6,7 @@ ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <ExpenseList
     expenses={Array []}
-/>,
+  />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "getNode": [Function],
@@ -22,10 +22,10 @@ ShallowWrapper {
       "children": Array [
         <h1>
           Expense List
-</h1>,
+        </h1>,
         <p>
           No expenses
-</p>,
+        </p>,
       ],
     },
     "ref": null,
@@ -64,10 +64,10 @@ ShallowWrapper {
         "children": Array [
           <h1>
             Expense List
-</h1>,
+          </h1>,
           <p>
             No expenses
-</p>,
+          </p>,
         ],
       },
       "ref": null,
@@ -114,31 +114,31 @@ ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <ExpenseList
     expenses={
-        Array [
-            Object {
-              "amount": 195,
-              "createdAt": 0,
-              "description": "Gum",
-              "id": 1,
-              "note": "",
-            },
-            Object {
-              "amount": 109500,
-              "createdAt": -345600000,
-              "description": "Rent",
-              "id": 2,
-              "note": "",
-            },
-            Object {
-              "amount": 4500,
-              "createdAt": 345600000,
-              "description": "Credit card",
-              "id": 3,
-              "note": "",
-            },
-          ]
+      Array [
+        Object {
+          "amount": 195,
+          "createdAt": 0,
+          "description": "Gum",
+          "id": 1,
+          "note": "",
+        },
+        Object {
+          "amount": 109500,
+          "createdAt": -345600000,
+          "description": "Rent",
+          "id": 2,
+          "note": "",
+        },
+        Object {
+          "amount": 4500,
+          "createdAt": 345600000,
+          "description": "Credit card",
+          "id": 3,
+          "note": "",
+        },
+      ]
     }
-/>,
+  />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "getNode": [Function],
@@ -154,7 +154,7 @@ ShallowWrapper {
       "children": Array [
         <h1>
           Expense List
-</h1>,
+        </h1>,
         Array [
           <ExpenseListItem
             amount={195}
@@ -162,21 +162,21 @@ ShallowWrapper {
             description="Gum"
             id={1}
             note=""
-/>,
+          />,
           <ExpenseListItem
             amount={109500}
             createdAt={-345600000}
             description="Rent"
             id={2}
             note=""
-/>,
+          />,
           <ExpenseListItem
             amount={4500}
             createdAt={345600000}
             description="Credit card"
             id={3}
             note=""
-/>,
+          />,
         ],
       ],
     },
@@ -250,7 +250,7 @@ ShallowWrapper {
         "children": Array [
           <h1>
             Expense List
-</h1>,
+          </h1>,
           Array [
             <ExpenseListItem
               amount={195}
@@ -258,21 +258,21 @@ ShallowWrapper {
               description="Gum"
               id={1}
               note=""
-/>,
+            />,
             <ExpenseListItem
               amount={109500}
               createdAt={-345600000}
               description="Rent"
               id={2}
               note=""
-/>,
+            />,
             <ExpenseListItem
               amount={4500}
               createdAt={345600000}
               description="Credit card"
               id={3}
               note=""
-/>,
+            />,
           ],
         ],
       },
