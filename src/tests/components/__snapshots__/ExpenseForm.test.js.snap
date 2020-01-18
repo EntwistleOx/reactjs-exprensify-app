@@ -2,13 +2,14 @@
 
 exports[`should render Error for invalid form submit 1`] = `
 ShallowWrapper {
-  "length": 1,
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <ExpenseForm />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
     "getNode": [Function],
     "render": [Function],
+    "simulateError": [Function],
     "simulateEvent": [Function],
     "unmount": [Function],
   },
@@ -39,7 +40,7 @@ ShallowWrapper {
             anchorDirection="left"
             customCloseIcon={null}
             customInputIcon={null}
-            date={"2020-01-17T17:00:08.804Z"}
+            date={"2020-01-18T03:22:41.777Z"}
             daySize={39}
             disabled={false}
             displayFormat={[Function]}
@@ -148,7 +149,7 @@ ShallowWrapper {
               anchorDirection="left"
               customCloseIcon={null}
               customInputIcon={null}
-              date={"2020-01-17T17:00:08.804Z"}
+              date={"2020-01-18T03:22:41.777Z"}
               daySize={39}
               disabled={false}
               displayFormat={[Function]}
@@ -270,7 +271,7 @@ ShallowWrapper {
               "anchorDirection": "left",
               "customCloseIcon": null,
               "customInputIcon": null,
-              "date": "2020-01-17T17:00:08.804Z",
+              "date": "2020-01-18T03:22:41.777Z",
               "daySize": 39,
               "disabled": false,
               "displayFormat": [Function],
@@ -402,7 +403,7 @@ ShallowWrapper {
               anchorDirection="left"
               customCloseIcon={null}
               customInputIcon={null}
-              date={"2020-01-17T17:00:08.804Z"}
+              date={"2020-01-18T03:22:41.777Z"}
               daySize={39}
               disabled={false}
               displayFormat={[Function]}
@@ -511,7 +512,7 @@ ShallowWrapper {
                 anchorDirection="left"
                 customCloseIcon={null}
                 customInputIcon={null}
-                date={"2020-01-17T17:00:08.804Z"}
+                date={"2020-01-18T03:22:41.777Z"}
                 daySize={39}
                 disabled={false}
                 displayFormat={[Function]}
@@ -633,7 +634,7 @@ ShallowWrapper {
                 "anchorDirection": "left",
                 "customCloseIcon": null,
                 "customInputIcon": null,
-                "date": "2020-01-17T17:00:08.804Z",
+                "date": "2020-01-18T03:22:41.777Z",
                 "daySize": 39,
                 "disabled": false,
                 "displayFormat": [Function],
@@ -742,21 +743,42 @@ ShallowWrapper {
     "adapter": ReactSixteenAdapter {
       "options": Object {
         "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
       },
     },
+    Symbol(enzyme.__providerValues__): undefined,
   },
+  Symbol(enzyme.__providerValues__): Map {},
+  Symbol(enzyme.__childContext__): null,
 }
 `;
 
 exports[`should render Error for invalid form submit 2`] = `
 ShallowWrapper {
-  "length": 1,
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <ExpenseForm />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
     "getNode": [Function],
     "render": [Function],
+    "simulateError": [Function],
     "simulateEvent": [Function],
     "unmount": [Function],
   },
@@ -789,7 +811,7 @@ ShallowWrapper {
             anchorDirection="left"
             customCloseIcon={null}
             customInputIcon={null}
-            date={"2020-01-17T17:00:08.804Z"}
+            date={"2020-01-18T03:22:41.777Z"}
             daySize={39}
             disabled={false}
             displayFormat={[Function]}
@@ -908,7 +930,7 @@ ShallowWrapper {
               anchorDirection="left"
               customCloseIcon={null}
               customInputIcon={null}
-              date={"2020-01-17T17:00:08.804Z"}
+              date={"2020-01-18T03:22:41.777Z"}
               daySize={39}
               disabled={false}
               displayFormat={[Function]}
@@ -1030,7 +1052,7 @@ ShallowWrapper {
               "anchorDirection": "left",
               "customCloseIcon": null,
               "customInputIcon": null,
-              "date": "2020-01-17T17:00:08.804Z",
+              "date": "2020-01-18T03:22:41.777Z",
               "daySize": 39,
               "disabled": false,
               "displayFormat": [Function],
@@ -1164,7 +1186,7 @@ ShallowWrapper {
               anchorDirection="left"
               customCloseIcon={null}
               customInputIcon={null}
-              date={"2020-01-17T17:00:08.804Z"}
+              date={"2020-01-18T03:22:41.777Z"}
               daySize={39}
               disabled={false}
               displayFormat={[Function]}
@@ -1283,7 +1305,7 @@ ShallowWrapper {
                 anchorDirection="left"
                 customCloseIcon={null}
                 customInputIcon={null}
-                date={"2020-01-17T17:00:08.804Z"}
+                date={"2020-01-18T03:22:41.777Z"}
                 daySize={39}
                 disabled={false}
                 displayFormat={[Function]}
@@ -1405,7 +1427,7 @@ ShallowWrapper {
                 "anchorDirection": "left",
                 "customCloseIcon": null,
                 "customInputIcon": null,
-                "date": "2020-01-17T17:00:08.804Z",
+                "date": "2020-01-18T03:22:41.777Z",
                 "daySize": 39,
                 "disabled": false,
                 "displayFormat": [Function],
@@ -1514,21 +1536,42 @@ ShallowWrapper {
     "adapter": ReactSixteenAdapter {
       "options": Object {
         "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
       },
     },
+    Symbol(enzyme.__providerValues__): undefined,
   },
+  Symbol(enzyme.__providerValues__): Map {},
+  Symbol(enzyme.__childContext__): null,
 }
 `;
 
 exports[`should render ExpenseForm correctly 1`] = `
 ShallowWrapper {
-  "length": 1,
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <ExpenseForm />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
     "getNode": [Function],
     "render": [Function],
+    "simulateError": [Function],
     "simulateEvent": [Function],
     "unmount": [Function],
   },
@@ -1559,7 +1602,7 @@ ShallowWrapper {
             anchorDirection="left"
             customCloseIcon={null}
             customInputIcon={null}
-            date={"2020-01-17T17:00:08.765Z"}
+            date={"2020-01-18T03:22:41.752Z"}
             daySize={39}
             disabled={false}
             displayFormat={[Function]}
@@ -1668,7 +1711,7 @@ ShallowWrapper {
               anchorDirection="left"
               customCloseIcon={null}
               customInputIcon={null}
-              date={"2020-01-17T17:00:08.765Z"}
+              date={"2020-01-18T03:22:41.752Z"}
               daySize={39}
               disabled={false}
               displayFormat={[Function]}
@@ -1790,7 +1833,7 @@ ShallowWrapper {
               "anchorDirection": "left",
               "customCloseIcon": null,
               "customInputIcon": null,
-              "date": "2020-01-17T17:00:08.765Z",
+              "date": "2020-01-18T03:22:41.752Z",
               "daySize": 39,
               "disabled": false,
               "displayFormat": [Function],
@@ -1922,7 +1965,7 @@ ShallowWrapper {
               anchorDirection="left"
               customCloseIcon={null}
               customInputIcon={null}
-              date={"2020-01-17T17:00:08.765Z"}
+              date={"2020-01-18T03:22:41.752Z"}
               daySize={39}
               disabled={false}
               displayFormat={[Function]}
@@ -2031,7 +2074,7 @@ ShallowWrapper {
                 anchorDirection="left"
                 customCloseIcon={null}
                 customInputIcon={null}
-                date={"2020-01-17T17:00:08.765Z"}
+                date={"2020-01-18T03:22:41.752Z"}
                 daySize={39}
                 disabled={false}
                 displayFormat={[Function]}
@@ -2153,7 +2196,7 @@ ShallowWrapper {
                 "anchorDirection": "left",
                 "customCloseIcon": null,
                 "customInputIcon": null,
-                "date": "2020-01-17T17:00:08.765Z",
+                "date": "2020-01-18T03:22:41.752Z",
                 "daySize": 39,
                 "disabled": false,
                 "displayFormat": [Function],
@@ -2262,15 +2305,34 @@ ShallowWrapper {
     "adapter": ReactSixteenAdapter {
       "options": Object {
         "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
       },
     },
+    Symbol(enzyme.__providerValues__): undefined,
   },
+  Symbol(enzyme.__providerValues__): Map {},
+  Symbol(enzyme.__childContext__): null,
 }
 `;
 
 exports[`should render ExpenseForm with expense data 1`] = `
 ShallowWrapper {
-  "length": 1,
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <ExpenseForm
     expense={
@@ -2285,8 +2347,10 @@ ShallowWrapper {
   />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
     "getNode": [Function],
     "render": [Function],
+    "simulateError": [Function],
     "simulateEvent": [Function],
     "unmount": [Function],
   },
@@ -3020,8 +3084,28 @@ ShallowWrapper {
     "adapter": ReactSixteenAdapter {
       "options": Object {
         "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
       },
     },
+    Symbol(enzyme.__providerValues__): undefined,
   },
+  Symbol(enzyme.__providerValues__): Map {},
+  Symbol(enzyme.__childContext__): null,
 }
 `;

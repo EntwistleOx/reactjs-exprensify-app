@@ -2,13 +2,14 @@
 
 exports[`should render Header correctly 1`] = `
 ShallowWrapper {
-  "length": 1,
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <Header />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
     "getNode": [Function],
     "render": [Function],
+    "simulateError": [Function],
     "simulateEvent": [Function],
     "unmount": [Function],
   },
@@ -23,7 +24,7 @@ ShallowWrapper {
         </h1>,
         <NavLink
           activeClassName="is-active"
-          ariaCurrent="true"
+          aria-current="page"
           exact={true}
           to="/"
         >
@@ -31,14 +32,14 @@ ShallowWrapper {
         </NavLink>,
         <NavLink
           activeClassName="is-active"
-          ariaCurrent="true"
+          aria-current="page"
           to="/create"
         >
           Create Expense 
         </NavLink>,
         <NavLink
           activeClassName="is-active"
-          ariaCurrent="true"
+          aria-current="page"
           to="/help"
         >
           Expense Help 
@@ -64,7 +65,7 @@ ShallowWrapper {
         "nodeType": "function",
         "props": Object {
           "activeClassName": "is-active",
-          "ariaCurrent": "true",
+          "aria-current": "page",
           "children": "Dashboard ",
           "exact": true,
           "to": "/",
@@ -79,7 +80,7 @@ ShallowWrapper {
         "nodeType": "function",
         "props": Object {
           "activeClassName": "is-active",
-          "ariaCurrent": "true",
+          "aria-current": "page",
           "children": "Create Expense ",
           "to": "/create",
         },
@@ -93,7 +94,7 @@ ShallowWrapper {
         "nodeType": "function",
         "props": Object {
           "activeClassName": "is-active",
-          "ariaCurrent": "true",
+          "aria-current": "page",
           "children": "Expense Help ",
           "to": "/help",
         },
@@ -116,7 +117,7 @@ ShallowWrapper {
           </h1>,
           <NavLink
             activeClassName="is-active"
-            ariaCurrent="true"
+            aria-current="page"
             exact={true}
             to="/"
           >
@@ -124,14 +125,14 @@ ShallowWrapper {
           </NavLink>,
           <NavLink
             activeClassName="is-active"
-            ariaCurrent="true"
+            aria-current="page"
             to="/create"
           >
             Create Expense 
           </NavLink>,
           <NavLink
             activeClassName="is-active"
-            ariaCurrent="true"
+            aria-current="page"
             to="/help"
           >
             Expense Help 
@@ -157,7 +158,7 @@ ShallowWrapper {
           "nodeType": "function",
           "props": Object {
             "activeClassName": "is-active",
-            "ariaCurrent": "true",
+            "aria-current": "page",
             "children": "Dashboard ",
             "exact": true,
             "to": "/",
@@ -172,7 +173,7 @@ ShallowWrapper {
           "nodeType": "function",
           "props": Object {
             "activeClassName": "is-active",
-            "ariaCurrent": "true",
+            "aria-current": "page",
             "children": "Create Expense ",
             "to": "/create",
           },
@@ -186,7 +187,7 @@ ShallowWrapper {
           "nodeType": "function",
           "props": Object {
             "activeClassName": "is-active",
-            "ariaCurrent": "true",
+            "aria-current": "page",
             "children": "Expense Help ",
             "to": "/help",
           },
@@ -202,8 +203,27 @@ ShallowWrapper {
     "adapter": ReactSixteenAdapter {
       "options": Object {
         "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
       },
     },
+    Symbol(enzyme.__providerValues__): undefined,
   },
+  Symbol(enzyme.__providerValues__): Map {},
 }
 `;
